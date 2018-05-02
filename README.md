@@ -7,7 +7,7 @@ LDA with Collapse Gibbs Sampling and Stochastic Variational Inference
 
 ## Development Environment
 * Language: Python3
-* Prerequisite libraries: [Scipy](http://scipy.org), [Numpy](http://numpy.org), [Jupyter Notebook](http://jupyter.org/)
+* Prerequisite libraries: [Scipy](http://scipy.org), [Numpy](http://numpy.org), [Jupyter Notebook](http://jupyter.org/), [Cython](http://cython.org/)
 
 ## Environment Setup
 * Fetch git repo:
@@ -38,15 +38,15 @@ python -m sta663_project_lda.algorithms.lda_svi
 ``` 
   alternatively:
 
-Exceute lda_test.ipynb in jupyter notebook
+Exceute [lda_test.ipynb](https://github.com/haofuml/sta663_project_lda/blob/master/lda_test.ipynb) in jupyter notebook
 
 * Computational efficiency comparison:
 
-Exceute lda_time.ipynb in jupyter notebook
+Exceute [lda_time.ipynb](https://github.com/haofuml/sta663_project_lda/blob/master/lda_time.ipynb) in jupyter notebook
 
 * New York Times dataset results:
 
-Exceute lda_nytime.ipynb in jupyter notebook
+Exceute [lda_nytime.ipynb](https://github.com/haofuml/sta663_project_lda/blob/master/lda_nytime.ipynb) in jupyter notebook
 
 ## Reference
 * [Parameter estimation for text analysis](http://www.arbylon.net/publications/text-est.pdf)
