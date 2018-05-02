@@ -49,7 +49,7 @@ Exceute [lda_time.ipynb](https://github.com/haofuml/sta663_project_lda/blob/mast
 Exceute [lda_nytime.ipynb](https://github.com/haofuml/sta663_project_lda/blob/master/lda_nytime.ipynb) in jupyter notebook
 
 ## Results
-These are the ten-top word in each topic on New York Times dataset
+These are the top ten words in each topic on New York Times dataset.
 * collapsed gibbs method
 ![collapsed gibbs](https://github.com/haofuml/sta663_project_lda/blob/master/nyt_cgibbs_result.png)
 * stochastic variational method
