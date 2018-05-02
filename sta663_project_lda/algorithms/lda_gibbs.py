@@ -99,7 +99,7 @@ class LDAGibbs(object):
         print('Alpha')
         for i in range(self.TOPICS):
             print(self.alpha[i])
-        print('Beta: {}'.format(beta))
+        print('Beta: {}'.format(self.beta))
 
 
     def run(self,max_iter = 50):
