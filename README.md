@@ -48,6 +48,12 @@ Exceute [lda_time.ipynb](https://github.com/haofuml/sta663_project_lda/blob/mast
 
 Exceute [lda_nytime.ipynb](https://github.com/haofuml/sta663_project_lda/blob/master/lda_nytime.ipynb) in jupyter notebook
 
+## Results
+These are the ten-top word in each topic on New York Times dataset
+![collapsed gibbs](https://github.com/haofuml/sta663_project_lda/blob/master/nyt_cgibbs_result.png)
+![svi](https://github.com/haofuml/sta663_project_lda/blob/master/nyt_svi_result.png)
+
+
 ## Reference
 * [Parameter estimation for text analysis](http://www.arbylon.net/publications/text-est.pdf)
 * [Latent Dirichlet Allocation](http://www.cs.columbia.edu/~blei/papers/BleiNgJordan2003.pdf)
