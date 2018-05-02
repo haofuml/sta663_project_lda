@@ -46,7 +46,7 @@ Exceute lda_time.ipynb in jupyter notebook
 
 * New York Times dataset results:
 
-Exceute lda_time.ipynb in jupyter notebook
+Exceute lda_nytime.ipynb in jupyter notebook
 
 ## Reference
 * [Parameter estimation for text analysis](http://www.arbylon.net/publications/text-est.pdf)
