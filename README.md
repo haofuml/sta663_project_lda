@@ -3,41 +3,56 @@ LDA with Collapse Gibbs Sampling and Stochastic Variational Inference
 
 [Report](https://www.overleaf.com/15867250wrvzjcyhcwxj#/60454983/)
 
-[Project Requirement](https://docs.google.com/spreadsheets/d/1QaqKi-5EuTtq0bPap0xDkqHyVI0TH0RW65lX2VisMuU/edit?usp=sharing)
+[Project Requirement](https://github.com/cliburn/sta-663-2018/blob/master/project/FinalProject.ipynb)
 
 ## Development Environment
 * Language: Python3
-* Prerequisite libraries: [Scipy](http://scipy.org), [Numpy](http://numpy.org)
+* Prerequisite libraries: [Scipy](http://scipy.org), [Numpy](http://numpy.org), [Jupyter Notebook](http://jupyter.org/)
 
+## Environment Setup
+* Fetch git repo:
+```shell
+git clone https://github.com/haofuml/sta663_project_lda.git
+cd sta663_project_lda
+```
+* Install packages:
+```shell
+pip install --index-url https://test.pypi.org/simple/ sta663_project_lda
+```
 
 ## Data Preparation
-### generated dataset
-```python
-python generate-data.py 
+* generate toy dataset:
+```shell
+python -m sta663_project_lda.preprocessing.gen_toydata
 ```
-### NYT dataset
-```python
-some data preparation code
+* prepare NYT dataset:
+```shell
+python -m sta663_project_lda.preprocessing.gen_nytdata
 ```
 
-## Algorithms
-### Collapsed Gibbs Sampling
-``` python
-python
+## Experiments
+* Toy dataset results:
+``` shell
+python -m sta663_project_lda.algorithms.lda_gibbs
+python -m sta663_project_lda.algorithms.lda_svi
 ``` 
+  alternatively:
 
-### Stochastic Variational Inference
-```python
-python
-```
+Exceute lda_test.ipynb in jupyter notebook
 
-## Result
+* Computational efficiency comparison:
 
+Exceute lda_time.ipynb in jupyter notebook
 
+* New York Times dataset results:
+
+Exceute lda_time.ipynb in jupyter notebook
 
 ## Reference
-* [Latent Dirichlet Allocation](http://www.cs.columbia.edu/~blei/papers/BleiNgJordan2003.pdf)
 * [Parameter estimation for text analysis](http://www.arbylon.net/publications/text-est.pdf)
-
+* [Latent Dirichlet Allocation](http://www.cs.columbia.edu/~blei/papers/BleiNgJordan2003.pdf)
+* [Collapsed Gibbs](http://www.ics.uci.edu/~newman/pubs/fastlda.pdf)
+* [Stochastic Variational Inference](http://www.columbia.edu/~jwp2128/Papers/HoffmanBleiWangPaisley2013.pdf)
+* [Online LDA](https://papers.nips.cc/paper/3902-online-learning-for-latent-dirichlet-allocation.pdf)
 
 
