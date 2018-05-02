@@ -50,7 +50,9 @@ Exceute [lda_nytime.ipynb](https://github.com/haofuml/sta663_project_lda/blob/ma
 
 ## Results
 These are the ten-top word in each topic on New York Times dataset
+* collapsed gibbs method
 ![collapsed gibbs](https://github.com/haofuml/sta663_project_lda/blob/master/nyt_cgibbs_result.png)
+* stochastic variational method
 ![svi](https://github.com/haofuml/sta663_project_lda/blob/master/nyt_svi_result.png)
 
 
